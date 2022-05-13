@@ -1,0 +1,112 @@
+[2021-02-24 00:45:00.654] [exthost] [info] extension host started
+[2021-02-24 00:45:00.681] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication {"startup":false,"extensionId":{"value":"vscode.microsoft-authentication","_lower":"vscode.microsoft-authentication"},"activationEvent":"onAuthenticationRequest:microsoft"}
+[2021-02-24 00:45:00.681] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js
+[2021-02-24 00:45:00.694] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2021-02-24 00:45:00.694] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2021-02-24 00:45:00.697] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-02-24 00:45:00.697] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/git/dist/main
+[2021-02-24 00:45:00.734] [exthost] [info] ExtensionService#_doActivateExtension Atishay-Jain.All-Autocomplete {"startup":true,"extensionId":{"value":"Atishay-Jain.All-Autocomplete","_lower":"atishay-jain.all-autocomplete"},"activationEvent":"*"}
+[2021-02-24 00:45:00.734] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/atishay-jain.all-autocomplete-0.0.23/dist/extension
+[2021-02-24 00:45:00.737] [exthost] [info] ExtensionService#_doActivateExtension christian-kohler.path-intellisense {"startup":true,"extensionId":{"value":"christian-kohler.path-intellisense","_lower":"christian-kohler.path-intellisense"},"activationEvent":"*"}
+[2021-02-24 00:45:00.737] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/christian-kohler.path-intellisense-2.3.0/out/extension.js
+[2021-02-24 00:45:00.753] [exthost] [info] ExtensionService#_doActivateExtension CoenraadS.bracket-pair-colorizer {"startup":true,"extensionId":{"value":"CoenraadS.bracket-pair-colorizer","_lower":"coenraads.bracket-pair-colorizer"},"activationEvent":"*"}
+[2021-02-24 00:45:00.753] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/coenraads.bracket-pair-colorizer-1.0.61/out/src/extension
+[2021-02-24 00:45:00.769] [exthost] [info] ExtensionService#_doActivateExtension PKief.material-icon-theme {"startup":true,"extensionId":{"value":"PKief.material-icon-theme","_lower":"pkief.material-icon-theme"},"activationEvent":"*"}
+[2021-02-24 00:45:00.769] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/pkief.material-icon-theme-4.5.0/dist/extension
+[2021-02-24 00:45:00.848] [exthost] [info] ExtensionService#_doActivateExtension vscode.github {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-02-24 00:45:00.848] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/github/dist/extension.js
+[2021-02-24 00:45:00.872] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug {"startup":false,"extensionId":{"value":"ms-vscode.js-debug","_lower":"ms-vscode.js-debug"},"activationEvent":"onCommand:extension.js-debug.clearAutoAttachVariables"}
+[2021-02-24 00:45:00.872] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/ms-vscode.js-debug/src/extension.js
+[2021-02-24 00:45:00.999] [exthost] [info] eager extensions activated
+[2021-02-24 00:45:01.010] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":false,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"onStartupFinished"}
+[2021-02-24 00:45:01.010] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain
+[2021-02-24 00:45:01.020] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":false,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"onStartupFinished"}
+[2021-02-24 00:45:01.020] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/merge-conflict/dist/mergeConflictMain
+[2021-02-24 00:45:01.024] [exthost] [info] ExtensionService#_doActivateExtension vscode.testing-editor-contributions {"startup":false,"extensionId":{"value":"vscode.testing-editor-contributions","_lower":"vscode.testing-editor-contributions"},"activationEvent":"onStartupFinished"}
+[2021-02-24 00:45:01.024] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/testing-editor-contributions/dist/extension.js
+[2021-02-24 00:45:01.042] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication {"startup":false,"extensionId":{"value":"vscode.github-authentication","_lower":"vscode.github-authentication"},"activationEvent":"onAuthenticationRequest:github"}
+[2021-02-24 00:45:01.042] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/github-authentication/dist/extension.js
+[2021-02-24 00:45:12.595] [exthost] [info] extension host terminating: received terminate message from renderer
+[2021-02-24 00:45:13.600] [exthost] [info] exiting with code 0
+[2021-02-24 00:45:13.808] [exthost] [info] extension host started
+[2021-02-24 00:45:13.829] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication {"startup":false,"extensionId":{"value":"vscode.microsoft-authentication","_lower":"vscode.microsoft-authentication"},"activationEvent":"onAuthenticationRequest:microsoft"}
+[2021-02-24 00:45:13.829] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js
+[2021-02-24 00:45:13.839] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2021-02-24 00:45:13.839] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2021-02-24 00:45:13.842] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-02-24 00:45:13.842] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/git/dist/main
+[2021-02-24 00:45:13.859] [exthost] [info] ExtensionService#_doActivateExtension Atishay-Jain.All-Autocomplete {"startup":true,"extensionId":{"value":"Atishay-Jain.All-Autocomplete","_lower":"atishay-jain.all-autocomplete"},"activationEvent":"*"}
+[2021-02-24 00:45:13.859] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/atishay-jain.all-autocomplete-0.0.23/dist/extension
+[2021-02-24 00:45:13.863] [exthost] [info] ExtensionService#_doActivateExtension christian-kohler.path-intellisense {"startup":true,"extensionId":{"value":"christian-kohler.path-intellisense","_lower":"christian-kohler.path-intellisense"},"activationEvent":"*"}
+[2021-02-24 00:45:13.863] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/christian-kohler.path-intellisense-2.3.0/out/extension.js
+[2021-02-24 00:45:13.887] [exthost] [info] ExtensionService#_doActivateExtension CoenraadS.bracket-pair-colorizer {"startup":true,"extensionId":{"value":"CoenraadS.bracket-pair-colorizer","_lower":"coenraads.bracket-pair-colorizer"},"activationEvent":"*"}
+[2021-02-24 00:45:13.887] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/coenraads.bracket-pair-colorizer-1.0.61/out/src/extension
+[2021-02-24 00:45:13.913] [exthost] [info] ExtensionService#_doActivateExtension PKief.material-icon-theme {"startup":true,"extensionId":{"value":"PKief.material-icon-theme","_lower":"pkief.material-icon-theme"},"activationEvent":"*"}
+[2021-02-24 00:45:13.913] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/pkief.material-icon-theme-4.5.0/dist/extension
+[2021-02-24 00:45:13.991] [exthost] [info] ExtensionService#_doActivateExtension vscode.github {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-02-24 00:45:13.991] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/github/dist/extension.js
+[2021-02-24 00:45:14.043] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug {"startup":false,"extensionId":{"value":"ms-vscode.js-debug","_lower":"ms-vscode.js-debug"},"activationEvent":"onCommand:extension.js-debug.clearAutoAttachVariables"}
+[2021-02-24 00:45:14.043] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/ms-vscode.js-debug/src/extension.js
+[2021-02-24 00:45:14.103] [exthost] [info] eager extensions activated
+[2021-02-24 00:45:14.112] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":false,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"onStartupFinished"}
+[2021-02-24 00:45:14.112] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain
+[2021-02-24 00:45:14.124] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":false,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"onStartupFinished"}
+[2021-02-24 00:45:14.124] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/merge-conflict/dist/mergeConflictMain
+[2021-02-24 00:45:14.127] [exthost] [info] ExtensionService#_doActivateExtension vscode.testing-editor-contributions {"startup":false,"extensionId":{"value":"vscode.testing-editor-contributions","_lower":"vscode.testing-editor-contributions"},"activationEvent":"onStartupFinished"}
+[2021-02-24 00:45:14.127] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/testing-editor-contributions/dist/extension.js
+[2021-02-24 00:45:14.162] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication {"startup":false,"extensionId":{"value":"vscode.github-authentication","_lower":"vscode.github-authentication"},"activationEvent":"onAuthenticationRequest:github"}
+[2021-02-24 00:45:14.162] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/github-authentication/dist/extension.js
+[2021-02-24 01:00:19.070] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing {"startup":false,"extensionId":{"value":"vscode.configuration-editing","_lower":"vscode.configuration-editing"},"activationEvent":"onLanguage:jsonc"}
+[2021-02-24 01:00:19.070] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/configuration-editing/dist/configurationEditingMain
+[2021-02-24 01:00:19.075] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features {"startup":false,"extensionId":{"value":"vscode.json-language-features","_lower":"vscode.json-language-features"},"activationEvent":"onLanguage:jsonc"}
+[2021-02-24 01:00:19.075] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain
+[2021-02-24 01:00:19.107] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"extensionId":{"value":"vscode.typescript-language-features","_lower":"vscode.typescript-language-features"},"activationEvent":"onLanguage:jsonc"}
+[2021-02-24 01:00:19.107] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/typescript-language-features/dist/extension
+[2021-02-24 01:27:00.976] [exthost] [info] ExtensionService#_doActivateExtension vscode.php-language-features {"startup":false,"extensionId":{"value":"vscode.php-language-features","_lower":"vscode.php-language-features"},"activationEvent":"onLanguage:php"}
+[2021-02-24 01:27:00.976] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/php-language-features/dist/phpMain
+[2021-02-24 01:27:00.992] [exthost] [info] ExtensionService#_doActivateExtension bmewburn.vscode-intelephense-client {"startup":false,"extensionId":{"value":"bmewburn.vscode-intelephense-client","_lower":"bmewburn.vscode-intelephense-client"},"activationEvent":"onLanguage:php"}
+[2021-02-24 01:27:00.992] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/bmewburn.vscode-intelephense-client-1.6.3/lib/extension
+[2021-02-24 01:27:01.033] [exthost] [info] ExtensionService#_doActivateExtension MehediDracula.php-namespace-resolver {"startup":false,"extensionId":{"value":"MehediDracula.php-namespace-resolver","_lower":"mehedidracula.php-namespace-resolver"},"activationEvent":"onLanguage:php"}
+[2021-02-24 01:27:01.033] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/mehedidracula.php-namespace-resolver-1.1.8/src/extension
+[2021-02-24 01:27:01.040] [exthost] [info] ExtensionService#_doActivateExtension SonarSource.sonarlint-vscode {"startup":false,"extensionId":{"value":"SonarSource.sonarlint-vscode","_lower":"sonarsource.sonarlint-vscode"},"activationEvent":"onLanguage:php"}
+[2021-02-24 01:27:01.040] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/sonarsource.sonarlint-vscode-1.20.1/dist/extension
+[2021-02-24 02:21:08.520] [exthost] [info] extension host started
+[2021-02-24 02:21:08.686] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication {"startup":false,"extensionId":{"value":"vscode.microsoft-authentication","_lower":"vscode.microsoft-authentication"},"activationEvent":"onAuthenticationRequest:microsoft"}
+[2021-02-24 02:21:08.686] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js
+[2021-02-24 02:21:08.698] [exthost] [info] ExtensionService#_doActivateExtension vscode.php-language-features {"startup":false,"extensionId":{"value":"vscode.php-language-features","_lower":"vscode.php-language-features"},"activationEvent":"onLanguage:php"}
+[2021-02-24 02:21:08.698] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/php-language-features/dist/phpMain
+[2021-02-24 02:21:08.707] [exthost] [info] ExtensionService#_doActivateExtension bmewburn.vscode-intelephense-client {"startup":false,"extensionId":{"value":"bmewburn.vscode-intelephense-client","_lower":"bmewburn.vscode-intelephense-client"},"activationEvent":"onLanguage:php"}
+[2021-02-24 02:21:08.707] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/bmewburn.vscode-intelephense-client-1.6.3/lib/extension
+[2021-02-24 02:21:08.722] [exthost] [info] ExtensionService#_doActivateExtension MehediDracula.php-namespace-resolver {"startup":false,"extensionId":{"value":"MehediDracula.php-namespace-resolver","_lower":"mehedidracula.php-namespace-resolver"},"activationEvent":"onLanguage:php"}
+[2021-02-24 02:21:08.722] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/mehedidracula.php-namespace-resolver-1.1.8/src/extension
+[2021-02-24 02:21:08.729] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"extensionId":{"value":"SonarSource.sonarlint-vscode","_lower":"sonarsource.sonarlint-vscode"},"activationEvent":"onLanguage:php"}
+[2021-02-24 02:21:08.729] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/typescript-language-features/dist/extension
+[2021-02-24 02:21:08.741] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2021-02-24 02:21:08.741] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2021-02-24 02:21:08.744] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-02-24 02:21:08.744] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/git/dist/main
+[2021-02-24 02:21:08.766] [exthost] [info] ExtensionService#_doActivateExtension Atishay-Jain.All-Autocomplete {"startup":true,"extensionId":{"value":"Atishay-Jain.All-Autocomplete","_lower":"atishay-jain.all-autocomplete"},"activationEvent":"*"}
+[2021-02-24 02:21:08.766] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/atishay-jain.all-autocomplete-0.0.23/dist/extension
+[2021-02-24 02:21:08.768] [exthost] [info] ExtensionService#_doActivateExtension christian-kohler.path-intellisense {"startup":true,"extensionId":{"value":"christian-kohler.path-intellisense","_lower":"christian-kohler.path-intellisense"},"activationEvent":"*"}
+[2021-02-24 02:21:08.769] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/christian-kohler.path-intellisense-2.3.0/out/extension.js
+[2021-02-24 02:21:08.792] [exthost] [info] ExtensionService#_doActivateExtension CoenraadS.bracket-pair-colorizer {"startup":true,"extensionId":{"value":"CoenraadS.bracket-pair-colorizer","_lower":"coenraads.bracket-pair-colorizer"},"activationEvent":"*"}
+[2021-02-24 02:21:08.792] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/coenraads.bracket-pair-colorizer-1.0.61/out/src/extension
+[2021-02-24 02:21:08.821] [exthost] [info] ExtensionService#_doActivateExtension PKief.material-icon-theme {"startup":true,"extensionId":{"value":"PKief.material-icon-theme","_lower":"pkief.material-icon-theme"},"activationEvent":"*"}
+[2021-02-24 02:21:08.821] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/pkief.material-icon-theme-4.5.0/dist/extension
+[2021-02-24 02:21:09.089] [exthost] [info] ExtensionService#_doActivateExtension SonarSource.sonarlint-vscode {"startup":false,"extensionId":{"value":"SonarSource.sonarlint-vscode","_lower":"sonarsource.sonarlint-vscode"},"activationEvent":"onLanguage:php"}
+[2021-02-24 02:21:09.089] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/sonarsource.sonarlint-vscode-1.20.1/dist/extension
+[2021-02-24 02:21:09.175] [exthost] [info] ExtensionService#_doActivateExtension vscode.github {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-02-24 02:21:09.175] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/github/dist/extension.js
+[2021-02-24 02:21:09.336] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug {"startup":false,"extensionId":{"value":"ms-vscode.js-debug","_lower":"ms-vscode.js-debug"},"activationEvent":"onCommand:extension.js-debug.clearAutoAttachVariables"}
+[2021-02-24 02:21:09.336] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/ms-vscode.js-debug/src/extension.js
+[2021-02-24 02:21:09.450] [exthost] [info] eager extensions activated
+[2021-02-24 02:21:09.463] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":false,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"onStartupFinished"}
+[2021-02-24 02:21:09.463] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain
+[2021-02-24 02:21:09.469] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":false,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"onStartupFinished"}
+[2021-02-24 02:21:09.470] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/merge-conflict/dist/mergeConflictMain
+[2021-02-24 02:21:09.492] [exthost] [info] ExtensionService#_doActivateExtension vscode.testing-editor-contributions {"startup":false,"extensionId":{"value":"vscode.testing-editor-contributions","_lower":"vscode.testing-editor-contributions"},"activationEvent":"onStartupFinished"}
+[2021-02-24 02:21:09.492] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/testing-editor-contributions/dist/extension.js
+[2021-02-24 02:21:09.543] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication {"startup":false,"extensionId":{"value":"vscode.github-authentication","_lower":"vscode.github-authentication"},"activationEvent":"onAuthenticationRequest:github"}
+[2021-02-24 02:21:09.543] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/github-authentication/dist/extension.js
+[2021-02-24 02:21:09.705] [exthost] [info] extension host terminating: parent process 193465 does not exist anymore: kill ESRCH (code: ESRCH) (errno: ESRCH)
+[2021-02-24 02:21:10.720] [exthost] [info] exiting with code 0

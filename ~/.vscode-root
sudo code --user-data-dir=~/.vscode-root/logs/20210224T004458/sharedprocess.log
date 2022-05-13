@@ -1,0 +1,9 @@
+[2021-02-24 00:45:02.534] [sharedprocess] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/abdoulaye/symfony_projects/transfermobile/~/.vscode-root
+sudo code --user-data-dir=~/.vscode-root/User/snippets'
+[2021-02-24 00:45:04.755] [sharedprocess] [info] Installing extension: angular.ng-template
+[2021-02-24 00:45:11.047] [sharedprocess] [info] Downloaded extension: angular.ng-template undefined
+[2021-02-24 00:45:11.719] [sharedprocess] [info] Extracted extension to /root/.vscode/extensions/.angular.ng-template-11.2.3: angular.ng-template
+[2021-02-24 00:45:11.719] [sharedprocess] [info] Renamed to /root/.vscode/extensions/angular.ng-template-11.2.3
+[2021-02-24 00:45:11.720] [sharedprocess] [info] Installation completed. angular.ng-template
+[2021-02-24 00:45:11.724] [sharedprocess] [info] Extensions installed successfully: angular.ng-template
+[2021-02-24 00:45:42.490] [sharedprocess] [info] Starting to clean up unused language packs.

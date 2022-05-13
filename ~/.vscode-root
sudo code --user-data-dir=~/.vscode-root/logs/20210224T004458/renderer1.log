@@ -1,0 +1,7 @@
+[2021-02-24 00:45:13.271] [renderer1] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/abdoulaye/symfony_projects/transfermobile/.vscode'
+[2021-02-24 02:21:08.080] [renderer1] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/abdoulaye/symfony_projects/transfermobile/.vscode'
+[2021-02-24 02:40:35.462] [renderer1] [error] Unable to read file '/home/abdoulaye/symfony_projects/transfermobile/config/jwt/private' (Error: Unable to resolve non-existing file '/home/abdoulaye/symfony_projects/transfermobile/config/jwt/private'): Error: Unable to read file '/home/abdoulaye/symfony_projects/transfermobile/config/jwt/private' (Error: Unable to resolve non-existing file '/home/abdoulaye/symfony_projects/transfermobile/config/jwt/private')
+    at o.doReadAsFileStream (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:618:28471)
+    at async E.doRead (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2105:31018)
+    at async E.readStream (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2105:30671)
+    at async Or.loadFromFile (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2099:48650)
