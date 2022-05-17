@@ -56,13 +56,13 @@ class Profile
      * @ORM\Id
      * @ORM\GeneratedValue
      * @ORM\Column(type="integer")
-     * @Groups({"user:read", "user:write","agence:read", "agence:write"})
+     * @Groups({"user:read", "user:write","agence:read", "agence:write", "getConnectedUser"})
      */
     public $id;
 
     /**
      * @ORM\Column(type="string", length=255)
-     * @Groups({"user:read", "user:write","agence:read", "agence:write", "profil:write"})
+     * @Groups({"user:read", "user:write","agence:read", "agence:write", "profil:write", "getConnectedUser"})
      */
     public $libelle;
 

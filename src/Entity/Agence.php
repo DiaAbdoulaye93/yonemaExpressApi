@@ -53,7 +53,7 @@ class Agence
 
     /**
      * @ORM\Column(type="string", length=255)
-     *@Groups({"user:read", "user:write","agence:read", "agence:write", "compte:read", "compte:write","transactions:read"})
+     *@Groups({"user:read", "user:write","agence:read", "agence:write", "compte:read", "compte:write","transactions:read","getConnectedUser"})
      */
     private $nom;
 
@@ -90,7 +90,7 @@ class Agence
 
     /**
      * @ORM\OneToOne(targetEntity=Comptes::class, mappedBy="agence", cascade={"persist", "remove"})
-     * @Groups({"user:read", "user:write","agence:read", "agence:write"})
+     * @Groups({"user:read", "user:write","agence:read", "agence:write","getConnectedUser"})
      */
     public $comptes;
 

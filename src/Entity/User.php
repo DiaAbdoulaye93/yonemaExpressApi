@@ -14,47 +14,47 @@ use Symfony\Component\Validator\Constraints as Assert;
 use Symfony\Bridge\Doctrine\Validator\Constraints\UniqueEntity;
 use ApiPlatform\Core\Bridge\Doctrine\Orm\Filter\SearchFilter;
 use Symfony\Component\Security\Core\Encoder\UserPasswordEncoderInterface;
+
 /**
  * @ORM\Entity(repositoryClass=UserRepository::class)
  *  denormalizationContext={"groups"={"user:write"}}
  *  @UniqueEntity(fields={"telephone"},message="Veuillez choisir un autre numero de telephone")
  *   @ApiResource(
  *  denormalizationContext={"groups"={"user:write"}},
+ *  normalizationContext = {"groups" = {"user:read"}},
  * collectionOperations={
-      *   "get"={
-      *   "normalization_context"={"groups"={"user:read"}},
-      *   "path"="/admin/users"
-      * },
-      *   "connected_user"={
-    *     "method"="get",
-      *   "normalization_context"={"groups"={"user:read"}},
-      *   "path"="/connected/user",
-      * 
-      * },
-      *   "add_users"=
-      *     {
-      *       
-      *         "method"="POST",
-      *         "path"="/admin/users",
-      *      }
-      *    
-      *  },
-      * itemOperations={
-      *   "get"={
-      *   "normalization_context"={"groups"={"user:read"}},
-      *   "path"="/admin/user/{id}"
-      *   },
-     *   "edit_user"={
-     *   "method"= "put",
-     *   "path"= "/admin/users/{id}"
-     *   },
-     *  "delete_user"=
-      *      {
-      *         "method"="delete",
-      *         "path"="/admin/user/{id}"
-      *      }
-      * }
-      *)
+ *   "get"={
+ *   "path"="/admin/users"
+ * },
+ *   "getConnectedUser"={
+ *     "method"="get",
+ *     "route_name" = "getConnectedUser",
+ * 
+ * },
+ *   "add_users"=
+ *     {
+ *       
+ *         "method"="POST",
+ *         "path"="/admin/users",
+ *      }
+ *    
+ *  },
+ * itemOperations={
+ *   "get"={
+ *   "normalization_context"={"groups"={"user:read"}},
+ *   "path"="/admin/user/{id}"
+ *   },
+ *   "edit_user"={
+ *   "method"= "put",
+ *   "path"= "/admin/users/{id}"
+ *   },
+ *  "delete_user"=
+ *      {
+ *         "method"="delete",
+ *         "path"="/admin/user/{id}"
+ *      }
+ * }
+ *)
  *   
  */
 class User implements UserInterface
@@ -63,7 +63,7 @@ class User implements UserInterface
      * @ORM\Id
      * @ORM\GeneratedValue
      * @ORM\Column(type="integer")
-     *  @Groups({"user:read", "user:write","agence:read", "agence:write","transactions:read", "transactions:write"})
+     *  @Groups({"user:read", "user:write","agence:read", "agence:write","transactions:read", "transactions:write","getConnectedUser"})
      */
     public $id;
 
@@ -75,7 +75,7 @@ class User implements UserInterface
 
     /**
      * @ORM\Column(type="json")
-     *  @Groups({"user:read", "user:write","agence:read", "agence:write"})
+     *  @Groups({"user:read", "user:write","agence:read", "agence:write","getConnectedUser"})
      */
     public $roles = [];
 
@@ -88,36 +88,36 @@ class User implements UserInterface
 
     /**
      *  @ORM\Column(type="string", length=255)
-     *  @Groups({"user:read", "user:write","agence:read", "agence:write"})
+     *  @Groups({"user:read", "user:write","agence:read", "agence:write" ,"getConnectedUser"})
      */
     public $nom;
 
     /**
      * @ORM\Column(type="string", length=255)
-     * @Groups({"user:read", "user:write" ,"agence:read", "agence:write"})
+     * @Groups({"user:read", "user:write" ,"agence:read", "agence:write","getConnectedUser"})
      */
     public $prenom;
 
     /**
      * @ORM\Column(type="integer")
-     *  @Groups({"agence:read", "agence:write", "user:read", "user:write", "transactions:read"})
+     *  @Groups({"agence:read", "agence:write", "user:read", "user:write", "transactions:read","getConnectedUser"})
      */
     public $telephone;
 
     /**
      * @ORM\ManyToOne(targetEntity=Profile::class, inversedBy="users", cascade={"persist", "remove"})
-     * @Groups({"user:write", "user:read","agence:read", "agence:write"})
+     * @Groups({"user:write", "user:read","agence:read", "agence:write", "getConnectedUser"})
      */
     public $profil;
 
     /**
      * @ORM\Column(type="boolean", nullable=true)
      */
-    private $statut= false;
+    private $statut = false;
 
     /**
      * @ORM\ManyToOne(targetEntity=Agence::class, inversedBy="users", cascade={"persist", "remove"})
-     * @Groups({"user:write","user:read"})
+     * @Groups({"user:write","user:read", "getConnectedUser"})
      */
     public $agence;
 
@@ -313,6 +313,4 @@ class User implements UserInterface
 
         return $this;
     }
-
-    
 }

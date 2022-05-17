@@ -60,13 +60,13 @@ class Comptes
 
     /**
      * @ORM\Column(type="string", length=255)
-     * @Groups({"user:read", "user:write","agence:read", "agence:write", "compte:read", "compte:write", "transactions:read", "transactions:write"})
+     * @Groups({"user:read", "user:write","agence:read", "agence:write", "compte:read", "compte:write", "transactions:read", "transactions:write","getConnectedUser"})
      */
     public $numero;
 
     /**
      * @ORM\Column(type="integer")
-     * @Groups({"user:read", "user:write","agence:read", "agence:write", "compte:read", "compte:write", "transactions:read", "transactions:write"})
+     * @Groups({"user:read", "user:write","agence:read", "agence:write", "compte:read", "compte:write", "transactions:read", "transactions:write","getConnectedUser"})
      */
     public $solde;
 
