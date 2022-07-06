@@ -27,7 +27,7 @@ class UserController extends AbstractController
     {
         $user = $this->getUser();
         //  dd($user);
-        $user = $serializer->normalize($user, 'JSON', ['groups' => 'getConnectedUser']);
+        // $user = $serializer->normalize($user, 'JSON', ['groups' => 'getConnectedUser']);
         return new JsonResponse($user, Response::HTTP_OK);
     }
 }

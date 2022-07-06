@@ -28,6 +28,7 @@ use Symfony\Component\Security\Core\Encoder\UserPasswordEncoderInterface;
  * },
  *   "getConnectedUser"={
  *     "method"="get",
+ *      "path"="/sendIt/connectedUser",
  *     "route_name" = "getConnectedUser",
  * 
  * },

@@ -13,11 +13,10 @@ use Symfony\Bridge\Doctrine\Validator\Constraints\UniqueEntity;
 
 /**
  * @ApiResource(
- *  denormalizationContext={"groups"={"profil:write"}},
- *  
+ *  denormalizationContext={"groups"=  {"profile:write"}},
+ *  normalizationContext={  "groups"  ={"profile:read"}},
  * collectionOperations={
- *    "get"={
- *              "normalization_context"={"groups"={"profil:read"}},
+ *    "get"={  
  *              "path"="/admin/profils"
  *           },
  *    "POST"={"path"="/admin/profils"},
@@ -62,7 +61,7 @@ class Profile
 
     /**
      * @ORM\Column(type="string", length=255)
-     * @Groups({"user:read", "user:write","agence:read", "agence:write", "profil:write", "getConnectedUser"})
+     * @Groups({"user:read", "user:write","agence:read", "agence:write","getConnectedUser", "profile:read"})
      */
     public $libelle;
 
