@@ -35,7 +35,7 @@ class TransactionsClient
     /**
      * @ORM\Column(type="integer")
      */
-    private $frais;
+    private $frais = 0;
 
     /**
      * @ORM\Column(type="datetime")

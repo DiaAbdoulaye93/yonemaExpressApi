@@ -4,6 +4,7 @@ namespace App\Controller;
 
 use App\Entity\Client;
 use App\Entity\Comptes;
+use App\Entity\TransactionsClient;
 use App\Entity\User;
 use App\Repository\ComptesRepository;
 use App\Repository\ProfileRepository;
@@ -86,10 +87,23 @@ class UserController extends AbstractController
         $data = $request->request->all();
         $user = $this->getUser();
         $compte = new Comptes();
+        $senderCompte = $this->compte->findBy(['id'=>$user->compte->id])[0];
+        $receiver = $this->user->findBy(['telephone' => $data['telephone']])[0];
+        $receiverCompte = $this->compte->findBy(['id'=>$receiver->compte->id])[0];
+        $transactionClient = new TransactionsClient();
         $senderAmount =$user->compte->solde - $data['montant'];
         $receiverAmount = $this->user->findBy(['telephone' => $data['telephone']])[0]->compte->solde + $data['montant'] ;
-        dd($senderAmount,$receiverAmount);
-        // $user = $serializer->normalize($user, 'JSON', ['groups' => 'getConnectedUser']);
-        return new JsonResponse($user, Response::HTTP_OK);
+        $transactionClient->setSender($user);
+        $transactionClient->setReceiver($receiver);
+        $transactionClient->setAmount($data['montant']);
+        $transactionClient->setFrais(0);
+        $transactionClient->setCreatedAt(new \DateTime());
+        $senderCompte->setSolde($senderAmount);
+        $receiverCompte->setSolde($receiverAmount);
+        $this->em->persist($transactionClient);
+        $this->em->persist($senderCompte);
+        $this->em->persist($receiverCompte);
+        $this->em->flush();
+        return new JsonResponse("Transacion reussie", Response::HTTP_CREATED, [], true);
     }
 }
