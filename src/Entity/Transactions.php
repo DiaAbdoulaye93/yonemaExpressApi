@@ -20,6 +20,10 @@ use Symfony\Component\Serializer\Annotation\Groups;
       *         "method"="POST",
       *         "path"="/transactions",
       *         "normalization_context"={"groups"={"transactions:read"}},
+      *      },
+      * "betweenTwoClient"={ 
+      *         "method"="POST",
+      *         "path"="/transfert",
       *      }
       *    
       *  },
