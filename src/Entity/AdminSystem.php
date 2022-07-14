@@ -10,14 +10,14 @@ use Doctrine\ORM\Mapping as ORM;
  * @ApiResource()
  * @ORM\Entity(repositoryClass=AdminSystemRepository::class)
  */
-class AdminSystem  
+class AdminSystem
 {
     /**
      * @ORM\Id
      * @ORM\GeneratedValue
      * @ORM\Column(type="integer")
      */
-    private $id;
+    public $id;
 
     public function getId(): ?int
     {

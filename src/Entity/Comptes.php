@@ -83,8 +83,9 @@ class Comptes
     private $statut;
 
     /**
+     * @ORM\Column(nullable=true)
      * @ORM\OneToOne(targetEntity=Agence::class, inversedBy="comptes", cascade={"persist", "remove"})
-     * * @Groups({"compte:read", "compte:write","transactions:read","commissions:read"})
+     * @Groups({"compte:read", "compte:write","transactions:read","commissions:read"})
      */
     public $agence;
 

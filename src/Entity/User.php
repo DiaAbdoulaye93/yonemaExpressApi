@@ -17,9 +17,10 @@ use Symfony\Component\Security\Core\Encoder\UserPasswordEncoderInterface;
 
 /**
  * @ORM\Entity(repositoryClass=UserRepository::class)
- *  denormalizationContext={"groups"={"user:write"}}
- *  @UniqueEntity(fields={"telephone"},message="Veuillez choisir un autre numero de telephone")
- *   @ApiResource(
+ * @UniqueEntity(fields={"telephone"},message="Veuillez choisir un autre numero de telephone")
+ * @ORM\InheritanceType("JOINED")
+ * @ORM\DiscriminatorMap({"user" = "User", "client" = "Client"})
+ *  @ApiResource(
  *  denormalizationContext={"groups"={"user:write"}},
  *  normalizationContext = {"groups" = {"user:read"}},
  * collectionOperations={
@@ -37,7 +38,11 @@ use Symfony\Component\Security\Core\Encoder\UserPasswordEncoderInterface;
  *       
  *         "method"="POST",
  *         "path"="/admin/users",
- *      }
+ *      },
+ *   "inscription" = {
+ *          "method"="POST",
+ *         "path"="/inscription",
+ * }
  *    
  *  },
  * itemOperations={
@@ -69,7 +74,7 @@ class User implements UserInterface
     public $id;
 
     /**
-     * @ORM\Column(type="string", length=180, unique=true)
+     * @ORM\Column(type="string", length=180, unique=true, nullable=true)
      *  @Groups({"user:read", "user:write","agence:read", "agence:write"})
      */
     public $email;

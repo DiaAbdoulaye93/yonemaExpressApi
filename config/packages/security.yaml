@@ -47,6 +47,7 @@ security:
     #["ROLE_Admin_system","ROLE_Caissier"]
     access_control:
         - { path: ^/api, roles: IS_AUTHENTICATED_ANONYMOUSLY, methods:[GET,POST]  }
+        - { path: ^/api/inscription, roles: IS_AUTHENTICATED_ANONYMOUSLY, methods:[GET,POST]  }
         - { path: ^/api/caissier, roles: IS_AUTHENTICATED_ANONYMOUSLY , methods:[POST,GET,PUT,PATCH] }
         # - { path: ^/api/admin, roles: IS_AUTHENTICATED_ANONYMOUSLY, methods:[POST,GET,PUT,PATCH,DELETE] }
         - { path: ^/api/admin, roles: ["ROLE_Admin_system"], methods:[POST,GET,PUT,PATCH,DELETE] }
